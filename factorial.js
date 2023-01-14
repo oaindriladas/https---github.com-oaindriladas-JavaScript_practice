@@ -7,3 +7,4 @@ fact= fact*i;
     }
     console.log("Factorial is: "+fact)
 }
+factorial();
