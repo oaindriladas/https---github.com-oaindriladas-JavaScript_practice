@@ -9,7 +9,6 @@ function merge(left, right) {
       sortedArr.push(right.shift())
     }
   }
-  
   return [...sortedArr, ...left, ...right];
 }
 
