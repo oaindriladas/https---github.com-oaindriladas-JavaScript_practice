@@ -1,0 +1,28 @@
+:root{
+    --custom-color: rgba(77, 255, 0, 0.814);
+}
+body{
+   
+    background-repeat: no-repeat;
+}
+div{
+    width:300px;
+    border: 1px solid blue;
+    margin:20px;
+    background-image: radial-gradient( yellow, green);
+    box-shadow: 20px 10px 10px 20px orange;
+}
+ #text-overflow{
+word-break: keep-all;
+word-wrap:break-word;
+} 
+#word-wrap{
+    width: 200px;
+    height: 20px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    word-wrap: break-word;
+}
+p{
+    background-color: var(--custom-color);
+}

@@ -1,0 +1,6 @@
+Welcome to HTML
+
+HTML stands for Hyper Text 
+Mark up language.
+
+It is used to structure web pages.

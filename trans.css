@@ -1,0 +1,43 @@
+div{
+    background-color: blue;
+    color:antiquewhite;
+    height: 70px;
+    width:70px;
+}
+
+#box1{
+    width: 300px;
+    /*transform: translateX(30px);*/
+}
+#box1:hover{
+    transition: background-color 3s;
+    width: 500px;
+    background-color: chartreuse;
+}
+#box2{
+    position: absolute;
+    top: 200px;
+    transform: rotate(-60deg);
+}
+#box3{
+    position: absolute;
+    top: 400px;
+    left:200px;
+  transform: scale(3);
+}
+#box4{
+    position: absolute;
+    left: 400px;
+    transform: skewY(30deg);
+}
+@keyframes colorchange{
+    from {background-color: yellow; left:500px; top: 200px}
+    to{ background-color: red; left:800px; top:400px}
+}
+#box5{
+    position: absolute;
+    left: 500px;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-delay: 3s;animation-iteration-count: infinite;
+}

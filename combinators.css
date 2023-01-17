@@ -1,0 +1,36 @@
+
+body{
+    margin: 20px;
+}
+p{
+    background-color: pink;
+}
+div{
+    background-color: cadetblue;
+    width: 400px;
+    height: 100px;
+    overflow:scroll;
+}
+span{
+    color:blue;
+    display: block;
+}
+#container{
+    position: relative;
+    height: 200px;
+    width: 500px;
+}
+#content{
+    height: 10px;
+    width: 20px;
+    background-color: blue;
+}
+p img{
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+table{
+    z-index: 90;
+}
+

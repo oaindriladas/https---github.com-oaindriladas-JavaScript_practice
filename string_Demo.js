@@ -1,0 +1,30 @@
+let a ='I am coding & enjoying!';
+console.log(typeof(a));
+let b = new String('I am coding');
+console.log(typeof(b));
+console.log(a.length);
+console.log(a.indexOf('o'));
+console.log(a.charAt(6));
+console.log(a.charCodeAt(6));
+console.log(a.concat(' Javascript'));
+console.log(a);
+console.log(a.endsWith('ing!'));
+console.log(a.includes('cod'));
+console.log(a.indexOf('cod'));
+var search= 'a'
+console.log(a.match(search));
+console.log(a.slice(2,7));
+console.log(a.substring(2,8));
+console.log(a.toLowerCase());
+console.log(a.replace('coding','programing'));
+console.log(a.repeat(2));
+console.log(a.padEnd(50,'aa'));
+console.log(a.padStart(40,'aa'));
+console.log(a.search('coding'));
+console.log(a.split(' '));
+let w= "   trim   ";
+console.log(w.trim());
+let salute= 'my name is "oaindrila"';
+console.log(salute);
+let country="India"
+console.log(`My country is ${country} in Asia`);

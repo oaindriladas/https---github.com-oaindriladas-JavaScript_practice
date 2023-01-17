@@ -1,0 +1,22 @@
+#item{
+    width: 75px;
+    height: 80px;
+    background-color: brown;
+    color: blanchedalmond;
+    border: 2px solid rgb(23, 20, 15);
+    /* flex-grow: 2; */
+    flex-shrink: 3;
+}
+#container{
+    display: flex;
+    height: 250px;
+    background-color: aquamarine;
+    flex-direction: row-reverse;
+    width: 80vw; 
+}
+#container #item1{
+    order: 5;
+}
+#container #item2{
+    order: 1;
+}
